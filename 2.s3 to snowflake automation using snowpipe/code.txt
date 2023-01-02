@@ -12,7 +12,7 @@ create or replace storage integration s3_cust  -- for authentication
 Type=External_stage
 Storage_provider='s3'
 enabled=True
-storage_AWS_ROLE_ARN = 'arn:aws:iam::118949878232:role/snowflake'
+storage_AWS_ROLE_ARN = 'arn:aws:iam:::role/snowflake'
 Storage_allowed_locations = ('s3://mysnowflakebucket0001/');
 
 
